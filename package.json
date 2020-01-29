@@ -1,0 +1,38 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "forkify project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Roberto Chavez Jr",
+  "license": "ISC",
+  "homepage": "https://rchavezj.github.io/foodie_api_js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-polyfill": "^6.26.0",
+    "fractional": "^1.0.0",
+    "gh-pages": "^2.2.0",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "core-js": "^3.6.0",
+    "html-webpack-plugin": "^3.2.0",
+    "install": "^0.13.0",
+    "npm": "^6.13.7",
+    "regenerator-runtime": "^0.13.3",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
