@@ -14,7 +14,7 @@
   "license": "ISC",
   "homepage": "https://rchavezj.github.io/foodie_api_js",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "fractional": "^1.0.0",
     "gh-pages": "^2.2.0",
